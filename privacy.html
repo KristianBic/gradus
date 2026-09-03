@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Gradus Weight</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ink: #16211c;
+    --muted: #5a6b63;
+    --rule: #d9e2dd;
+    --bg: #fbfcfb;
+    --accent: #2f6b52;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e6ece9;
+      --muted: #9aaaa3;
+      --rule: #2a3833;
+      --bg: #101613;
+      --accent: #8fc9ae;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 40rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 .5rem; letter-spacing: -.01em; }
+  h2 {
+    font-size: 1.05rem; margin: 2.5rem 0 .75rem; letter-spacing: .02em;
+    text-transform: uppercase; color: var(--accent);
+  }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0 0 2rem; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { margin-bottom: .6rem; }
+  strong { font-weight: 600; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .9em; background: color-mix(in srgb, var(--accent) 12%, transparent);
+    padding: .1em .35em; border-radius: 4px;
+  }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0 1.5rem; }
+  footer { color: var(--muted); font-size: .875rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Privacy Policy — Gradus Weight</h1>
+<p class="updated">Last updated: 3 September 2026</p>
+
+<h2>The short version</h2>
+<p>Gradus Weight does not collect anything. Your weigh-ins never leave your
+phone, because the app has no way to send them anywhere.</p>
+
+<h2>What the app stores</h2>
+<p>Everything you enter — your weigh-ins, their dates and times, any notes you
+add, your goal weight, your height, and your settings — is written to a database
+file in the app's private storage on your device. Android prevents other apps
+from reading it.</p>
+<p>There is no account, no sign-up and no user identifier of any kind.</p>
+
+<h2>What the app sends</h2>
+<p>Nothing. The released version of Gradus Weight is built <strong>without the
+Android <code>INTERNET</code> permission</strong>, which means the operating
+system will not let it open a network connection even if it tried to. There is
+no analytics, no crash reporting, no advertising and no cloud sync.</p>
+
+<h2>Permissions</h2>
+<p>One permission is ever shown to you:</p>
+<ul>
+  <li><strong>Notifications</strong> — only if you switch on the daily reminder
+  in Settings. It is requested at that moment, not at first launch, and
+  declining it simply leaves the reminder off.</li>
+</ul>
+<p>The reminder also brings a handful of permissions Android grants at install
+time and never asks you about, because the notification library needs them:
+running a short scheduled task, re-registering the reminder after a reboot,
+vibrating, and briefly keeping the device awake to show the notification. None
+of them can read your data or send anything.</p>
+<p>There is deliberately no <code>INTERNET</code> permission and no exact-alarm
+permission. You can check for yourself under <strong>Settings → Apps → Gradus
+Weight → Permissions</strong>.</p>
+
+<h2>When data leaves your phone</h2>
+<p>Only when you deliberately send it:</p>
+<ul>
+  <li><strong>Export to CSV.</strong> Settings → Your data → Export to CSV hands
+  the file to Android's share sheet. Where it goes next — email, a cloud drive,
+  another app — is your choice, and from that point it is governed by whatever
+  service you picked, not by us.</li>
+</ul>
+
+<h2>Home screen widgets</h2>
+<p>If you add a Gradus Weight widget, the app writes the few values the widget
+shows — your current weight, this week's change, your goal — into a preferences
+file so the widget can draw them. This file is also in the app's private
+storage. It stays on your device.</p>
+
+<h2>Deleting your data</h2>
+<p><strong>Settings → Your data → Delete all records</strong> permanently erases
+every reading. Uninstalling the app removes the database along with it. Neither
+can be undone, and neither needs our involvement, because we never had a
+copy.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children and collects no data from anyone.</p>
+
+<h2>Changes to this policy</h2>
+<p>If a future version adds anything that transmits data — cloud backup, for
+instance — this policy will be updated before that version ships, and the change
+will be described in the app's release notes.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:gradus.apps@gmail.com">gradus.apps@gmail.com</a></p>
+
+<hr>
+<footer>Gradus Weight · com.gradus.weight</footer>
+
+</main>
+</body>
+</html>
